@@ -1,0 +1,89 @@
+.timeline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+  }
+  
+  .timeline-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px 20px;
+  }
+  
+  .timeline-time {
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .timeline-time span {
+    font-size: 1.5rem;
+  }
+  
+  .timeline-time h4 {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .timeline-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    min-height: 200px;
+    align-items: center;
+  }
+  
+  .timeline-card.left {
+    flex-direction: row-reverse;
+  }
+  
+  .timeline-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  .timeline-card.left .timeline-image {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  
+  .timeline-details h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .timeline-details p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .price {
+    color: #ff5a5f;
+    font-weight: bold;
+  }
+  
+  .time {
+    color: #888;
+  }
+  
+  .timeline-connector {
+    width: 125px;
+    height: 3px;
+    background-color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 117%;
+    transform: translateX(-50%);
+    /* z-index: -1; */
+  }
+  
