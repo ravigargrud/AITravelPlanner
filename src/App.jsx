@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Planner from "./pages/Planner";
 import Itinerary from "./pages/Itinerary";
 import { ItineraryContext } from "./store/ItineraryStore";
