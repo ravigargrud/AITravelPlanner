@@ -1,4 +1,4 @@
-nav {
+.mainBar {
     font-family: "Google Sans", Roboto, Arial, sans-serif;
     color: #212832;
     font-size: 17px;
@@ -8,13 +8,13 @@ nav {
     padding: 10px;
 }
 
-nav img {
+.mainBar img {
     width: auto;
     height: 53px;
     margin-right: 100px;
 }
 
-nav ul {
+.mainBar ul {
     display: flex;
     list-style-type: none;
     width: 100%;
@@ -23,12 +23,12 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
+.mainBar ul li {
     margin-right: 20px;
     align-content: center;
 }
 
-nav button {
+.mainBar button {
     background-color: #faf8f800;
     color: #212832;
     border: 1px solid #212832;
