@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 const ItineraryTimeline = ({ itinerary }) => {
   const getPhotoURL = "https://places.googleapis.com/v1/{NAME}/media?maxHeightPx=1000&maxWidthPx=1000&key=" + import.meta.env.VITE_GOOGLE_PLACE_API_KEY;
 
-  const [itineraryPhotos, setItinerartPhotos] = useState([]);
+  const [itineraryPhotos, setItineraryPhotos] = useState([]);
 
   const getItineraryPhotos = async () => {
     try {
@@ -19,7 +19,7 @@ const ItineraryTimeline = ({ itinerary }) => {
       });
 
       const photos = await Promise.all(photoRequests);
-      setItinerartPhotos(photos);
+      setItineraryPhotos(photos);
     } catch (error) {
       console.error("Error fetching accommodation photos:", error);
     }
