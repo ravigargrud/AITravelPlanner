@@ -1,0 +1,29 @@
+{
+  "name": "ai-travel-planner",
+  "version": "1.0.0",
+  "description": "Backend for GenAI based travel itinerary providing app.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "genAI",
+    "travel",
+    "planner",
+    "itinerary",
+    "userbackend"
+  ],
+  "author": "Ravi Garg",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.1"
+  }
+}
